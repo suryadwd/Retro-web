@@ -1,0 +1,410 @@
+@font-face{
+  font-family: sun;
+  src: url(./sun.ttf);
+}
+@font-face{
+  font-family: anuj;
+  src: url(./anuj.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  max-width: 100%;
+  background-color: black;
+}
+.main{
+  background-color: black;
+
+}
+.page1{
+  background-color:#c4bcb3;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.nav{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #222;
+
+}
+.nav img{
+  height: 30px;
+  width: 30%;
+
+}
+.nav h4{
+  font-size: 20px;
+  font-weight: 10;
+  width: 30%;
+}
+.nav i{
+  font-size: 30px;
+  width: 30%;
+  text-align: right;
+}
+.elems{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.ele1{
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.ele2{
+  width: 35%;
+  height: 100%;
+  border-left: 2px solid rgb(172, 171, 171);
+  border-right: 2px solid rgb(172, 171, 171);
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.ele3{
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.ele1  .pic{
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ele3  .pic{
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+  
+}
+.pic img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pic:hover{
+  scale: 1.1;
+}
+
+.ele2 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ele1 h3{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: sun;
+}
+
+.ele1 h3 span{
+  background-color: #b43b12;
+  color: white;
+  font-weight: 100;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.ele1 p{
+  font-size: 22px;
+  font-weight: 10;
+  font-family: anuj ;
+}
+
+.ele3 h3{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: sun;
+}
+
+.ele3 h3 span{
+  background-color: #b43b12;
+  color: white;
+  font-weight: 100;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.ele3 p{
+  font-size: 22px;
+  font-weight: 10;
+  font-family: anuj ;
+}
+
+.ele2 h2{
+  font-size: 70px;
+  font-family: sun;
+}
+.ele2 h5{
+  font-size: 32px;
+  font-family: anuj;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.page1 h1{
+  font-size: 420px;
+  font-family: sun;
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  margin-top: 30px;
+  font-weight: 900;
+  line-height: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 35px;
+  width: 95%;
+ border-radius: 50px;
+}
+
+.page2{
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  
+}
+
+.page2-left{
+  height: 100%;
+  width: 35%;
+  border-right: 2px solid #222;
+}
+
+.page2-left h2{
+font-size: 100px;
+padding-left: 20px;
+font-family: sun;
+font-weight: 100 ;
+}
+
+.page2-left h2 span{
+  font-size: 180px;
+  font-weight: 1000;
+  }
+
+.page2-left p{
+  font-size: 35px;
+  font-family: anuj;
+  color: #222;
+  padding-left: 20px;
+  }
+
+.page2-left p span{
+ font-size: 60px;
+ background-color: black;
+ color: white;
+ border-radius: 10px;
+  }
+
+.page2-left img{
+  height:50%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0 30px;
+}
+
+.page2-right{
+  height: 100%;
+  width: 65%;
+  padding: 0 10px;
+}
+
+.page2-right img{
+  height: 60%;
+  width: 98%;
+  padding: 0 30px;
+  object-fit: cover;
+}
+
+.page2-right h2{
+  font-size: 70px ;
+  font-weight: 700;
+  padding: 10px 25px;
+  font-family: anuj;
+}
+.page3{
+  height: 40vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  padding-top: 20px;
+}
+.page3 h1{
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  height: 200px;
+  font-size: 170px;
+  text-align: center;
+  font-family: sun;
+  font-weight: 900;
+  margin-left: 40px;
+  width: 85%;
+  border-radius: 50px;
+}
+
+.page3 img{
+  height: 200px;
+  margin-left: 20px;
+}
+
+.page4{
+  height: 100vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  
+}
+
+.page4-left{
+  height: 100%;
+  width: 50%;
+}
+.page4-left img{
+  height: 80%;
+  width: 100%;
+  margin-top: 60px;
+  padding: 30px;
+  object-fit: cover;
+}
+.page4-right{
+  height: 100%;
+  width: 50%;
+  padding: 0 40px;
+  border-left: 3px solid #222;
+}
+.page4-right h1{
+  font-size: 120px;
+  font-family: sun;
+ 
+}
+
+.page4-right h3 span{
+  font-size: 80px;
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  border-radius: 8px;
+  font-family: sun;
+  font-weight: 400;
+}
+
+.page4-right h3{
+  font-family: anuj;
+  font-size: 40px;
+}
+
+.page4-right h5{
+  font-family: anuj;
+  font-size: 25px;
+}
+.d1{
+  background-color: #c4bcb3;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+color:white;
+text-align: center;
+padding: 20px;
+margin-left: 50%;
+}
+
+
+.d1 i{
+  font-size: 40px;
+}
+
+.d2{
+  font-size: 40px;
+}
+
+.d2{
+  background-color: #c4bcb3;
+  height: 100px;
+width: 100px;
+border-radius: 50%;
+color:white;
+margin-left: 50%;
+text-align: center;
+transform: translate(0,-100px);
+padding: 20px;
+}
+
+.d2:hover{
+  opacity: 0;
+}
+
+.page5{
+  height: 100px;
+  padding: 30px 0;
+  width: 100%;
+  background-color: #c4bcb3;
+  border-top: 1px solid #2f2f2f;
+  white-space:nowrap;
+  overflow-x:auto;
+  overflow-y: hidden;
+}
+
+.page5 h1{
+  font-size: 50px;
+  font-family: anuj;
+  font-weight: 300;
+  display: inline-block;
+  animation-timing-function: linear;
+  margin-right: 20px;
+  animation-name: sc;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.page5 h1 span{
+  font-family: sun;
+  background-color: #1b1b1b;
+  color: #c4bcb3;
+  padding: 0 12px;
+}
+.page6{
+  height: 20vw;
+  width: 100%;
+  background-color: #c4bcb3;
+}
+
+@keyframes sc{
+
+  0%{
+  transform: translateX(0);
+  }
+  100%{
+  transform: translateX(calc(-100% -24px));
+  }
+
+}
+
+.page5:hover{
+  animation-play-state: paused;
+}
